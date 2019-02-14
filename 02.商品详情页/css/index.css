@@ -1,0 +1,342 @@
+header {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0,0,0,0.8);
+}
+header .content {
+  margin: auto;
+  width: 1226px;
+  height: 40px;
+}
+header .content .left {
+  width: 70%;
+  height: 40px;
+  float: left;
+}
+header .content .left li {
+  margin-top: 13px;
+  float: left;
+  font-size: 12px;
+  height: 14px;
+  line-height: 14px;
+  border-right: 1px solid #b0b0b0;
+  padding: 0px 8px;
+}
+header .content .left li:last-child {
+  border-right: 0;
+}
+header .content .left li a {
+  color: #b0b0b0;
+}
+header .content .right {
+  float: right;
+  width: 25%;
+  height: 40px;
+}
+header .content .right .shopcart {
+  float: right;
+  width: 120px;
+  height: 41px;
+  line-height: 41px;
+  background-color: #ff6700;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin-right: 20px;
+}
+header .content .right ul li {
+  margin-top: 13px;
+  float: left;
+  font-size: 12px;
+  height: 14px;
+  line-height: 14px;
+  border-right: 1px solid #b0b0b0;
+  padding: 0px 8px;
+}
+header .content .right ul li:last-child {
+  border-right: 0;
+}
+header .content .right ul li a {
+  color: #b0b0b0;
+}
+content {
+  width: 100%;
+}
+content .clear {
+  clear: both;
+}
+content .nav {
+  margin: auto;
+  height: 100px;
+  width: 1226px;
+}
+content .nav .logo {
+  float: left;
+  width: 50px;
+  height: 100%;
+  background: url("../img/logo_top.png") no-repeat;
+  background-size: 100%;
+  background-position: center;
+  text-indent: -10000px;
+}
+content .nav .gif {
+  float: left;
+  width: 180px;
+  height: 100%;
+  background: url("../img/yyymix.gif") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+content .nav ul {
+  height: 100%;
+  float: left;
+}
+content .nav ul li {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 10px;
+  font-size: 16px;
+}
+content .nav .search {
+  float: right;
+  margin-top: 24px;
+  margin-left: 48px;
+}
+content .nav .search input {
+  width: 250px;
+  height: 50px;
+  border: 1px solid #ccc;
+}
+content .nav .search .button {
+  float: right;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #fff;
+}
+content .nav .search .button:active {
+  background-color: #ff6700;
+  color: #fff;
+}
+content .toubu {
+  width: 100%;
+  height: 58px;
+  background-color: #f0f0f0;
+}
+content .toubu .neirong {
+  width: 1226px;
+  height: 58px;
+  margin: auto;
+}
+content .toubu .neirong h2 {
+  font-size: 22px;
+  width: 300px;
+  height: 58px;
+  line-height: 58px;
+  float: left;
+}
+content .toubu .neirong ul {
+  float: right;
+  width: 410px;
+  height: 58px;
+  line-height: 58px;
+}
+content .toubu .neirong ul li {
+  float: left;
+  font-size: 14px;
+  height: 58px;
+  line-height: 58px;
+  margin: 0 5px;
+}
+content .toubu .neirong ul li a:hover {
+  color: #ff6709;
+}
+content .toubu .jieshao {
+  width: 1226px;
+  height: 560px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+content .toubu .jieshao .left {
+  width: 560px;
+  height: 560px;
+  border: 1px solid #ccc;
+  float: left;
+  position: relative;
+}
+content .toubu .jieshao .left:hover .green {
+  display: block;
+}
+content .toubu .jieshao .left:hover ~ .big {
+  display: block;
+}
+content .toubu .jieshao .left img {
+  width: 100%;
+  height: 100%;
+}
+content .toubu .jieshao .left .green {
+  display: none;
+  width: 250px;
+  height: 250px;
+  background-color: #adff2f;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+content .toubu .jieshao .left .mask {
+  width: 560px;
+  height: 560px;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+content .toubu .jieshao .big {
+  display: none;
+  width: 560px;
+  height: 560px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  left: 560px;
+  overflow: hidden;
+}
+content .toubu .jieshao .big img {
+  width: 1120px;
+  height: 1120px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+content .toubu .jieshao .right {
+  width: 620px;
+  height: 600px;
+  float: right;
+  background-color: #f8f8f8;
+}
+content .toubu .jieshao .right > div {
+  margin: 20px 0 0 20px;
+}
+content .toubu .jieshao .right > div h3 {
+  font-size: 22px;
+}
+content .toubu .jieshao .right > div .detail {
+  color: #b0b0b0;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+content .toubu .jieshao .right > div .price {
+  color: #ff6709;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+content .toubu .jieshao .right > div .span {
+  font-size: 20px;
+  margin-top: 20px;
+}
+content .toubu .jieshao .right > div .banben {
+  height: 58px;
+  line-height: 58px;
+}
+content .toubu .jieshao .right > div .banben .banben-l {
+  width: 278px;
+  height: 58px;
+  line-height: 58px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-top: 10px;
+}
+content .toubu .jieshao .right > div .banben a {
+  display: block;
+  font-size: 18px;
+  padding: 0 10px;
+}
+content .toubu .jieshao .right > div .banben a span {
+  margin-right: 10px;
+}
+content .toubu .jieshao .right > div .banben .banben-r {
+  width: 278px;
+  height: 58px;
+  line-height: 58px;
+  border: 1px solid #ccc;
+  float: right;
+  margin-top: 10px;
+}
+content .toubu .jieshao .right > div .span2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+content .toubu .jieshao .right > div .black {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-left: 80px;
+}
+content .toubu .jieshao .right > div .order {
+  width: 555px;
+  height: 80px;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 30px;
+}
+content .toubu .jieshao .right > div .order .order-top {
+  margin-top: 10px;
+}
+content .toubu .jieshao .right > div .order .order-top .order-l {
+  float: left;
+}
+content .toubu .jieshao .right > div .order .order-top .order-r {
+  float: right;
+}
+content .toubu .jieshao .right > div .order .order-top .clear {
+  clear: both;
+}
+content .toubu .jieshao .right > div .order .order-bottom {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff6709;
+  float: left;
+  margin-top: 20px;
+}
+content .toubu .jieshao .right > div .btn {
+  margin-top: 20px;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+content .toubu .jieshao .right > div .btn button {
+  width: 200px;
+  height: 50px;
+  background-color: #ff6709;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 120px;
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 30px 0;
+  background-color: #fafafa;
+}
+footer p {
+  height: 30px;
+}

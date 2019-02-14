@@ -1,0 +1,341 @@
+header
+  width 100%
+  height 40px
+  background-color rgba(0, 0, 0, 0.8)
+
+  .content
+    margin auto
+    width 1226px
+    height 40px
+
+    .left
+      width 70%
+      height 40px
+      float left
+
+      li
+        margin-top 13px
+        float left
+        font-size 12px
+        height 14px
+        line-height 14px
+        border-right 1px solid #b0b0b0
+        padding 0px 8px
+
+        &:last-child
+          border-right 0
+
+        a
+          color #b0b0b0
+
+    .right
+      float right
+      width 25%
+      height 40px
+
+      .shopcart
+        float right
+        width 120px
+        height 41px
+        line-height 41px
+        background-color #ff6700
+        color #fff
+        font-size 12px
+        text-align center
+        margin-right 20px
+
+      ul
+        li
+          margin-top 13px
+          float left
+          font-size 12px
+          height 14px
+          line-height 14px
+          border-right 1px solid #b0b0b0
+          padding 0px 8px
+
+          &:last-child
+            border-right 0
+
+          a
+            color #b0b0b0
+
+
+content
+  width 100%
+  .clear
+    clear both
+  .nav
+    margin auto
+    height 100px
+    width 1226px
+
+    .logo
+      float: left
+      width 50px
+      height 100%
+      background url("../img/logo_top.png") no-repeat
+      background-size 100%
+      background-position center
+      text-indent -10000px
+
+    .gif
+      float left
+      width 180px
+      height 100%
+      background url("../img/yyymix.gif") no-repeat
+      background-size 100%
+      background-position center
+
+    ul
+      height 100%
+      float: left
+
+      li
+        float left
+        height 100px
+        line-height 100px
+        margin 0 10px
+        font-size 16px
+
+    .search
+      float: right
+      margin-top 24px
+      margin-left 48px
+
+      input
+        width 250px
+        height 50px
+        border 1px solid #ccc
+
+      .button
+        float right
+        width 50px
+        height 50px
+        line-height 50px
+        text-align center
+        border 1px solid #ccc
+        cursor pointer
+        background-color #fff
+
+        &:active
+          background-color #ff6700
+          color #fff
+
+  .toubu
+    width 100%
+    height 58px
+    background-color: #f0f0f0
+
+    .neirong
+      width 1226px
+      height: 58px
+      margin auto
+
+      h2
+        font-size 22px
+        width 300px
+        height: 58px
+        line-height 58px
+        float: left
+
+      ul
+        float: right
+        width: 410px
+        height: 58px
+        line-height 58px
+
+        li
+          float: left
+          font-size 14px
+          height: 58px
+          line-height 58px
+          margin 0 5px
+
+          a
+            &:hover
+              color #ff6709
+
+    .jieshao
+      width 1226px
+      height: 560px
+      margin auto
+      margin-top 20px
+      position: relative
+
+      .left
+        width: 560px
+        height: 560px
+        border: 1px solid #ccc
+        float: left
+        position: relative
+
+        &:hover
+          .green
+            display block
+
+          ~ .big
+            display block
+
+        img
+          width: 100%
+          height: 100%
+
+        .green
+          display none
+          width: 250px
+          height: 250px
+          background-color: greenyellow
+          opacity 0.5
+          position: absolute
+          top: 0
+          left: 0
+
+        .mask
+          width: 560px
+          height: 560px
+          background-color: rgba(0, 0, 0, 0)
+          position: absolute
+          top: 0
+          left: 0
+          z-index 1000
+
+      .big
+        display none
+        width: 560px
+        height: 560px
+        border: 1px solid #ccc
+        position: absolute
+        top: 0
+        left: 560px
+        overflow hidden
+
+        img
+          width: 1120px
+          height: 1120px
+          position: absolute
+          left: 0
+          top: 0
+
+      .right
+        width: 620px
+        height: 600px
+        float: right
+        background-color: #f8f8f8
+
+        > div
+          margin 20px 0 0 20px
+
+          h3
+            font-size 22px
+
+          .detail
+            color #b0b0b0
+            font-size 14px
+            line-height: 20px
+            margin-right 40px
+            margin-top 10px
+
+          .price
+            color #ff6709
+            font-size 18px
+            font-weight bold
+            margin-top 10px
+
+          .span
+            font-size 20px
+            margin-top 20px
+
+          .banben
+            height: 58px
+            line-height: 58px
+
+            .banben-l
+              width: 278px
+              height: 58px
+              line-height 58px
+              border: 1px solid #ccc
+              float: left
+              margin-top 10px
+
+            a
+              display block
+              font-size 18px
+              padding 0 10px
+
+              span
+                margin-right 10px
+
+            .banben-r
+              width: 278px
+              height: 58px
+              line-height 58px
+              border: 1px solid #ccc
+              float: right
+              margin-top 10px
+
+
+          .span2
+            font-size 20px
+            margin-top 30px
+
+          .black
+            display inline-block
+            width: 15px
+            height: 15px
+            border-radius 50%
+            background-color: #000
+            margin-left 80px
+
+          .order
+            width: 555px
+            height: 80px
+            background-color: #fff
+            padding 20px
+            margin-top 30px
+
+            .order-top
+              margin-top 10px
+
+              .order-l
+                float: left
+
+              .order-r
+                float: right
+              .clear
+                clear both
+            .order-bottom
+              font-size 20px
+              font-weight bold
+              color #ff6709
+              float: left
+              margin-top 20px
+
+
+          .btn
+            margin-top 20px
+            height: 50px
+            line-height 50px
+            display flex
+            justify-content space-around
+            button
+              width: 200px
+              height: 50px
+              background-color: #ff6709
+              color #ffffff
+              font-size 18px
+              font-weight bold
+              border none
+footer
+  display flex
+  flex-direction column
+  justify-content flex-end
+  align-items center
+  height 120px
+  margin-top 20px
+  font-size 12px
+  padding 30px 0
+  background-color: #fafafa
+
+  p
+    height: 30px

@@ -1,0 +1,281 @@
+header
+  width 100%
+  height 40px
+  background-color rgba(0, 0, 0, 0.8)
+
+  .content
+    margin auto
+    width 1226px
+    height 40px
+
+    .left
+      width 70%
+      height 40px
+      float left
+
+      li
+        margin-top 13px
+        float left
+        font-size 12px
+        height 14px
+        line-height 14px
+        border-right 1px solid #b0b0b0
+        padding 0px 8px
+
+        &:last-child
+          border-right 0
+
+        a
+          color #b0b0b0
+
+    .right
+      float right
+      width 25%
+      height 40px
+
+      .shopcart
+        float right
+        width 120px
+        height 41px
+        line-height 41px
+        background-color #ff6700
+        color #fff
+        font-size 12px
+        text-align center
+        margin-right 20px
+
+      ul
+        li
+          margin-top 13px
+          float left
+          font-size 12px
+          height 14px
+          line-height 14px
+          border-right 1px solid #b0b0b0
+          padding 0px 8px
+
+          &:last-child
+            border-right 0
+
+          a
+            color #b0b0b0
+
+
+content
+  width 100%
+
+  .active
+    color #ff6700
+
+  .clear
+    clear both
+
+  .nav
+    margin auto
+    height 100px
+    width 1226px
+
+    .logo
+      float: left
+      width 50px
+      height 100%
+      background url("../img/logo_top.png") no-repeat
+      background-size 100%
+      background-position center
+      text-indent -10000px
+
+    .gif
+      float left
+      width 180px
+      height 100%
+      background url("../img/yyymix.gif") no-repeat
+      background-size 100%
+      background-position center
+
+    ul
+      height 100%
+      float: left
+
+      li
+        float left
+        height 100px
+        line-height 100px
+        margin 0 10px
+        font-size 16px
+
+    .search
+      float: right
+      margin-top 24px
+      margin-left 48px
+
+      input
+        width 250px
+        height 50px
+        border 1px solid #ccc
+
+      .button
+        float right
+        width 50px
+        height 50px
+        line-height 50px
+        text-align center
+        border 1px solid #ccc
+        cursor pointer
+        background-color #fff
+
+        &:active
+          background-color #ff6700
+          color #fff
+
+
+  .classify
+    width 1226px
+    height: 81px
+    margin auto
+    display flex
+    align-items center
+    font-size 14px
+
+    span
+      float: left
+      width: 72px
+      height: 21px
+      color #b0b0b0
+
+    ul
+      float: left
+
+      li
+        float: left
+        width: 172px
+        height: 45px
+        line-height 45px
+        cursor: pointer
+
+        &:hover
+          a
+            color #ff6700
+
+  .wrap
+    width: 100%
+    height: 81px
+    background-color: #f5f5f5
+
+    .wrap-c
+      width: 1226px
+      height: 81px
+      font-size 14px
+      margin auto
+      display flex
+      align-items center
+
+      ul
+        float: left
+
+        :nth-child(1)
+          border-left 0
+          text-align: left
+          padding-left 0
+
+        li
+          float: left
+          height: 20px
+          line-height: 20px
+          padding 0 30px
+          border-left 1px solid #e0e0e0
+          cursor: pointer
+
+          &:hover
+            a
+              color #ff6700
+
+  .main
+    width: 1226px
+    height: 834px
+    margin auto
+    margin-top 20px
+
+    h2
+      width: 1226px
+      height: 58px
+      line-height 58px
+      margin-top 20px
+      font-size 22px
+
+    ul
+      display flex
+      justify-content space-around
+
+      li
+        width 234px
+        height 340px
+        background-color: #fafafa
+        border: 2px solid #ffffff
+
+        &:hover
+          img
+            opacity 1
+
+        a
+          display block
+          text-align: center
+
+          img
+            width 160px
+            height: 160px
+            opacity 0.8
+            margin 37px
+
+          .describe
+            font-size 12px
+            color: #b0b0b0
+            margin 15px 0
+
+          .price
+            color #ff6700
+
+    .main-bottom
+      margin-top 20px
+
+  .fenye
+    width: 100%
+    height: 50px
+    margin-top 35px
+    background-color: #f5f5f5
+    display flex
+    align-items center
+    justify-content center
+
+
+    li
+      float: left
+      flex-shrink: 0
+      width: 48px
+      height: 24px
+      line-height: 24px
+      padding: 3px 0
+      margin: 0 7px
+      text-align: center
+      color: #b0b0b0
+      cursor: pointer
+      background: rgba(0, 0, 0, 0)
+      transition: all 0.2s
+      &:hover
+        background-color: #b0b0b0
+        color #ffffff
+      &.active
+        background-color: #757575
+        color #ffffff
+
+footer
+  display flex
+  flex-direction column
+  justify-content flex-end
+  align-items center
+  height 120px
+  margin-top 20px
+  font-size 12px
+  padding 30px 0
+
+  p
+    height: 30px

@@ -1,0 +1,425 @@
+header
+  width 100%
+  height 40px
+  background-color rgba(0, 0, 0, 0.8)
+
+  .content
+    margin auto
+    width 1226px
+    height 40px
+
+    .left
+      width 70%
+      height 40px
+      float left
+
+      li
+        margin-top 13px
+        float left
+        font-size 12px
+        height 14px
+        line-height 14px
+        border-right 1px solid #b0b0b0
+        padding 0px 8px
+
+        &:last-child
+          border-right 0
+
+        a
+          color #b0b0b0
+
+    .right
+      float right
+      width 25%
+      height 40px
+
+      .shopcart
+        float right
+        width 120px
+        height 41px
+        line-height 41px
+        background-color #ff6700
+        color #fff
+        font-size 12px
+        text-align center
+        margin-right 20px
+
+      ul
+        li
+          margin-top 13px
+          float left
+          font-size 12px
+          height 14px
+          line-height 14px
+          border-right 1px solid #b0b0b0
+          padding 0px 8px
+
+          &:last-child
+            border-right 0
+
+          a
+            color #b0b0b0
+
+
+content
+  width 100%
+  .nav
+    margin auto
+    height 100px
+    width 1226px
+
+    .logo
+      float: left
+      width 50px
+      height 100%
+      background url("../img/logo_top.png") no-repeat
+      background-size 100%
+      background-position center
+      text-indent -10000px
+
+    .gif
+      float left
+      width 180px
+      height 100%
+      background url("../img/yyymix.gif") no-repeat
+      background-size 100%
+      background-position center
+
+    ul
+      height 100%
+      float: left
+
+      li
+        float left
+        height 100px
+        line-height 100px
+        margin 0 10px
+        font-size 16px
+
+    .search
+      float: right
+      margin-top 24px
+      margin-left 48px
+
+      input
+        width 250px
+        height 50px
+        border 1px solid #ccc
+
+      .button
+        float right
+        width 50px
+        height 50px
+        line-height 50px
+        text-align center
+        border 1px solid #ccc
+        cursor pointer
+        background-color #fff
+
+        &:active
+          background-color #ff6700
+          color #fff
+
+  .banner
+    margin auto
+    width 1226px
+    height 460px
+
+    .banner-left
+      float left
+      width 234px
+      height 100%
+      background-color #0c0c13
+      padding 20px 0
+      box-sizing border-box
+      position: relative
+
+      & > ul
+        & > li
+          display flex
+          align-items center
+          height 40px
+          padding 0 30px
+          font-size 14px
+
+          &:hover
+            background #ff6700
+
+            .mask
+              display flex
+
+          a
+            color #fff
+            margin-left 10px
+
+          .mask
+            display none
+            flex-direction column
+            flex-wrap wrap
+            position: absolute
+            top: 0
+            left 230px
+            width 800px
+            height 460px
+            background-color: #fff
+            z-index 2
+
+            li
+              display: flex
+              justify-content space-between
+              align-items center
+              box-sizing border-box
+              width 265px
+              height 71px
+              padding 20px 0 0 10px
+
+              .mask-l
+                display flex
+                align-items center
+                color #000
+
+              .mask-r
+                display flex
+                justify-content center
+                align-items center
+                width 60px
+                height 24px
+                font-size 12px
+                color #ff6700
+                border: 1px solid #ff6700
+                box-sizing border-box
+
+    .banner-right
+      float right
+      width 992px
+      height 100%
+      background-color pink
+
+      img
+        width 992px
+        height 460px
+
+  .banner-bottom
+    width 1226px
+    margin auto
+    display flex
+    justify-content space-between
+    height 170px
+    margin-top 15px
+
+    .select
+      width 234px
+      height 100%
+
+      a
+        float left
+        display block
+        width 78px
+        height 85px
+        opacity 0.7
+
+        &:hover
+          opacity 1
+
+    .bigImg
+      width 316px
+      height 100%
+      opacity 0.8
+      &:hover
+        opacity: 1
+
+      a
+        display block
+        width 100%
+        height 100%
+
+        img
+          width 100%
+          height 100%
+
+  .danpin
+    width 1226px
+    height 398px
+    margin auto
+    margin-top 20px
+
+    h2
+      height 58px
+      line-height 58px
+
+    ul
+      display flex
+      justify-content space-around
+
+      li
+        width 234px
+        height 340px
+        background-color: #fafafa
+        border-top 1px solid #ff6700
+
+        &:hover
+          img
+            opacity 1
+
+        a
+          display block
+          text-align: center
+
+          img
+            width 160px
+            height: 160px
+            opacity 0.8
+            margin 37px
+
+          .describe
+            font-size 12px
+            color: #b0b0b0
+            margin 15px 0
+
+          .price
+            color #ff6700
+
+      li:nth-child(2)
+        border-top 1px solid #008000
+
+      li:nth-child(3)
+        border-top 1px solid #00f
+
+      li:nth-child(4)
+        border-top 1px solid #f00
+
+      li:nth-child(5)
+        border-top 1px solid #008080
+
+  .peijian
+    width 1226px
+    height 672px
+    margin auto
+    margin-top 20px
+    background-color: #f5f5f5
+
+    h2
+      height 58px
+      line-height 58px
+
+    ul
+      height 614px
+      display: flex
+      justify-content space-between
+      align-content space-between
+      flex-wrap wrap
+
+      li
+        width 234px
+        height 300px
+        background-color: #fff
+
+
+        &:hover
+          box-shadow 0 0 30px #ccc
+
+          .comment
+            transform translateY(0)
+
+        .bigImg
+          width: 100%
+          height: 100%
+          margin 0
+
+        a
+          height: 100%
+          width: 100%
+          display: flex
+          flex-direction column
+          align-items center
+          font-size 14px
+          text-align: center
+          position: relative
+          overflow hidden
+
+          .info
+            width 65px
+            height: 20px
+            line-height 20px
+            text-align: center
+            background-color: #83c44e
+            color: #fff
+            font-size 10px
+
+          .new
+            background-color: #ff0000
+
+          img
+            width: 160px
+            height: 160px
+            margin 10px 0 20px
+
+          .name
+            height: 25px
+            line-height: 25px
+            font-size 14px
+
+          .price
+            height: 25px
+            line-height: 25px
+            font-size 14px
+            color #ff6700
+
+          .assess
+            height: 15px
+            line-height: 15px
+            font-size 12px
+            color #aaa
+
+          .comment
+            background-color: #ff6709
+            color #ffffff
+            position: absolute
+            left: 0
+            right: 0
+            bottom: 0
+            height: 70px
+            padding 10px 0 0 30px
+            box-sizing border-box
+            text-align: left
+            transition transform 0.5s
+            transform translateY(70px) translateZ(-100px)
+
+            p
+              font-size 12px
+              margin-top 5px
+
+      .more
+        display flex
+        flex-direction column
+        justify-content space-between
+        background-color: transparent
+
+        &:hover
+          box-shadow 0 0 0
+
+        a
+          display block
+          width 100%
+          height 142px
+
+          &:hover
+            box-shadow 0 0 30px #ccc
+
+          img
+            width 100%
+            height 100%
+            margin 0
+
+
+footer
+  display flex
+  flex-direction column
+  justify-content flex-end
+  align-items center
+  height 120px
+  margin-top 20px
+  font-size 12px
+  padding 30px 0
+  p
+    height: 30px

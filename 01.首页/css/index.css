@@ -1,0 +1,423 @@
+header {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0,0,0,0.8);
+}
+header .content {
+  margin: auto;
+  width: 1226px;
+  height: 40px;
+}
+header .content .left {
+  width: 70%;
+  height: 40px;
+  float: left;
+}
+header .content .left li {
+  margin-top: 13px;
+  float: left;
+  font-size: 12px;
+  height: 14px;
+  line-height: 14px;
+  border-right: 1px solid #b0b0b0;
+  padding: 0px 8px;
+}
+header .content .left li:last-child {
+  border-right: 0;
+}
+header .content .left li a {
+  color: #b0b0b0;
+}
+header .content .right {
+  float: right;
+  width: 25%;
+  height: 40px;
+}
+header .content .right .shopcart {
+  float: right;
+  width: 120px;
+  height: 41px;
+  line-height: 41px;
+  background-color: #ff6700;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin-right: 20px;
+}
+header .content .right ul li {
+  margin-top: 13px;
+  float: left;
+  font-size: 12px;
+  height: 14px;
+  line-height: 14px;
+  border-right: 1px solid #b0b0b0;
+  padding: 0px 8px;
+}
+header .content .right ul li:last-child {
+  border-right: 0;
+}
+header .content .right ul li a {
+  color: #b0b0b0;
+}
+content {
+  width: 100%;
+}
+content .nav {
+  margin: auto;
+  height: 100px;
+  width: 1226px;
+}
+content .nav .logo {
+  float: left;
+  width: 50px;
+  height: 100%;
+  background: url("../img/logo_top.png") no-repeat;
+  background-size: 100%;
+  background-position: center;
+  text-indent: -10000px;
+}
+content .nav .gif {
+  float: left;
+  width: 180px;
+  height: 100%;
+  background: url("../img/yyymix.gif") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+content .nav ul {
+  height: 100%;
+  float: left;
+}
+content .nav ul li {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 10px;
+  font-size: 16px;
+}
+content .nav .search {
+  float: right;
+  margin-top: 24px;
+  margin-left: 48px;
+}
+content .nav .search input {
+  width: 250px;
+  height: 50px;
+  border: 1px solid #ccc;
+}
+content .nav .search .button {
+  float: right;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #fff;
+}
+content .nav .search .button:active {
+  background-color: #ff6700;
+  color: #fff;
+}
+content .banner {
+  margin: auto;
+  width: 1226px;
+  height: 460px;
+}
+content .banner .banner-left {
+  float: left;
+  width: 234px;
+  height: 100%;
+  background-color: #0c0c13;
+  padding: 20px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+content .banner .banner-left > ul > li {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 30px;
+  font-size: 14px;
+}
+content .banner .banner-left > ul > li:hover {
+  background: #ff6700;
+}
+content .banner .banner-left > ul > li:hover .mask {
+  display: flex;
+}
+content .banner .banner-left > ul > li a {
+  color: #fff;
+  margin-left: 10px;
+}
+content .banner .banner-left > ul > li .mask {
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  left: 230px;
+  width: 800px;
+  height: 460px;
+  background-color: #fff;
+  z-index: 2;
+}
+content .banner .banner-left > ul > li .mask li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 265px;
+  height: 71px;
+  padding: 20px 0 0 10px;
+}
+content .banner .banner-left > ul > li .mask li .mask-l {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+content .banner .banner-left > ul > li .mask li .mask-r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 24px;
+  font-size: 12px;
+  color: #ff6700;
+  border: 1px solid #ff6700;
+  box-sizing: border-box;
+}
+content .banner .banner-right {
+  float: right;
+  width: 992px;
+  height: 100%;
+  background-color: #ffc0cb;
+}
+content .banner .banner-right img {
+  width: 992px;
+  height: 460px;
+}
+content .banner-bottom {
+  width: 1226px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 170px;
+  margin-top: 15px;
+}
+content .banner-bottom .select {
+  width: 234px;
+  height: 100%;
+}
+content .banner-bottom .select a {
+  float: left;
+  display: block;
+  width: 78px;
+  height: 85px;
+  opacity: 0.7;
+}
+content .banner-bottom .select a:hover {
+  opacity: 1;
+}
+content .banner-bottom .bigImg {
+  width: 316px;
+  height: 100%;
+  opacity: 0.8;
+}
+content .banner-bottom .bigImg:hover {
+  opacity: 1;
+}
+content .banner-bottom .bigImg a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+content .banner-bottom .bigImg a img {
+  width: 100%;
+  height: 100%;
+}
+content .danpin {
+  width: 1226px;
+  height: 398px;
+  margin: auto;
+  margin-top: 20px;
+}
+content .danpin h2 {
+  height: 58px;
+  line-height: 58px;
+}
+content .danpin ul {
+  display: flex;
+  justify-content: space-around;
+}
+content .danpin ul li {
+  width: 234px;
+  height: 340px;
+  background-color: #fafafa;
+  border-top: 1px solid #ff6700;
+}
+content .danpin ul li:hover img {
+  opacity: 1;
+}
+content .danpin ul li a {
+  display: block;
+  text-align: center;
+}
+content .danpin ul li a img {
+  width: 160px;
+  height: 160px;
+  opacity: 0.8;
+  margin: 37px;
+}
+content .danpin ul li a .describe {
+  font-size: 12px;
+  color: #b0b0b0;
+  margin: 15px 0;
+}
+content .danpin ul li a .price {
+  color: #ff6700;
+}
+content .danpin ul li:nth-child(2) {
+  border-top: 1px solid #008000;
+}
+content .danpin ul li:nth-child(3) {
+  border-top: 1px solid #00f;
+}
+content .danpin ul li:nth-child(4) {
+  border-top: 1px solid #f00;
+}
+content .danpin ul li:nth-child(5) {
+  border-top: 1px solid #008080;
+}
+content .peijian {
+  width: 1226px;
+  height: 672px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+}
+content .peijian h2 {
+  height: 58px;
+  line-height: 58px;
+}
+content .peijian ul {
+  height: 614px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+content .peijian ul li {
+  width: 234px;
+  height: 300px;
+  background-color: #fff;
+}
+content .peijian ul li:hover {
+  box-shadow: 0 0 30px #ccc;
+}
+content .peijian ul li:hover .comment {
+  transform: translateY(0);
+}
+content .peijian ul li .bigImg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+content .peijian ul li a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+content .peijian ul li a .info {
+  width: 65px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #83c44e;
+  color: #fff;
+  font-size: 10px;
+}
+content .peijian ul li a .new {
+  background-color: #f00;
+}
+content .peijian ul li a img {
+  width: 160px;
+  height: 160px;
+  margin: 10px 0 20px;
+}
+content .peijian ul li a .name {
+  height: 25px;
+  line-height: 25px;
+  font-size: 14px;
+}
+content .peijian ul li a .price {
+  height: 25px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #ff6700;
+}
+content .peijian ul li a .assess {
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  color: #aaa;
+}
+content .peijian ul li a .comment {
+  background-color: #ff6709;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 70px;
+  padding: 10px 0 0 30px;
+  box-sizing: border-box;
+  text-align: left;
+  transition: transform 0.5s;
+  transform: translateY(70px) translateZ(-100px);
+}
+content .peijian ul li a .comment p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+content .peijian ul .more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+}
+content .peijian ul .more:hover {
+  box-shadow: 0 0 0;
+}
+content .peijian ul .more a {
+  display: block;
+  width: 100%;
+  height: 142px;
+}
+content .peijian ul .more a:hover {
+  box-shadow: 0 0 30px #ccc;
+}
+content .peijian ul .more a img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 120px;
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 30px 0;
+}
+footer p {
+  height: 30px;
+}
